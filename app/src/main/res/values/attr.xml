@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawingBoard">
+        <attr name="brushStyle" format="integer">
+            <enum name="line" value="0"/>
+            <enum name="dash" value="1"/>
+
+        </attr>
+        <attr name="brushColor" format="reference"/>
+        <attr name="brushSize" format="dimension|float"/>
+        <attr name="lable" format="string"/>
+
+    </declare-styleable>
+
+</resources>
